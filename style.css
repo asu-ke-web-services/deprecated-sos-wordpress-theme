@@ -4,7 +4,7 @@
  Description:  School of Sustainability Wordpress Theme that is a child of the ASU Web Standards Wordpress Theme.
  Author:       School of Sustainability
  Author URI:   http://sustainability.asu.edu
- Template:     asu-wordpress-web-standards
+ Template:     ASU-Web-Standards-Wordpress-Theme
  Version:      1.0.0
  Tags:         responsive-layout, web-ready
  Text Domain:  asu-wordpress-web-standards-child
@@ -13,6 +13,8 @@
  GitHub Theme URI: https://github.com/gios-asu/SoS-Wordpress-Theme
  GitHub Branch:    master
 */
+
+// Note: the Template section is the FOLDER name of the parent template.
 
 
 /* =Theme customization starts here
