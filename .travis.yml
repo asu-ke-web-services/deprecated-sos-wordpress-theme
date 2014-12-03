@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "0.10"
+before_install: 
+  - npm install -g grunt-cli
+  - gem install sass
+  - gem update --system
+  - gem install scss-lint
+  # Need to add the repo to get php v5.4, currently it defaults to 5.3
+  - sudo apt-get install software-properties-common
+  - sudo add-apt-repository ppa:ondrej/php5-oldstable
+  - sudo apt-get update
+  - sudo apt-get install php5
+  - sudo apt-get install php5-tidy 
+  - npm install -g grunt-cli
+  - gem update --system
+  - curl -sS https://getcomposer.org/installer | php
+  - php composer.phar install
+  - npm install grunt-phpcs
+  - git clone https://github.com/gios-asu/wordpress-coding-standards.git coding_standards
+  - ./vendor/bin/phpcs -vvv -w --config-set installed_paths "../../../coding_standards/"
+install: npm install
