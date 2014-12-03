@@ -80,14 +80,9 @@ module.exports = function (grunt) {
         concat: {
             bootstrapAsu: {
                 src: [
-                    'js/_modernizr.js',
-                    'js/_smoothscroll.js',
-                    'js/_debounce.js',
-                    'js/_calendar.js',
-                    'js/_sidebar.js',
-                    'js/_collapse-footer.js'
+                    'js/*.js'
                 ],
-                 dest: 'build/js/bootstrap-asu.js'
+                 dest: 'build/js/sos-wordpres-theme.js'
             }
         },
         // JS Uglify
