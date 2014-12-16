@@ -20,4 +20,18 @@
 /* =Theme customization starts here
 ------------------------------------------------------------- */
 
- 
+
+.hero {
+  padding : 0; 
+  }
+	
+  @media (min-width: 768px) {
+    .hero {
+		padding : 0;
+  		}
+  }
+  
+   
+.hero-bg-img {
+	min-height:300px;
+	}  
