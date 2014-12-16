@@ -12,12 +12,10 @@ before_install:
   - sudo apt-get install software-properties-common
   - sudo add-apt-repository -y ppa:ondrej/php5
   - sudo apt-get update
-  - sudo apt-get install php5
-  - npm install -g grunt-cli
-  - gem update --system
+  - sudo apt-get install php5 curl
   - curl -sS https://getcomposer.org/installer | php
   - php composer.phar install
   - npm install grunt-phpcs
   - ./vendor/bin/phpcs -vvv -w --config-set installed_paths "../../../coding_standards/"
-  
+
 install: npm install

@@ -59,7 +59,8 @@ module.exports = function (grunt) {
                 // Not font_awesome
             ],
             options: {
-              config: 'scss/.scss-lint.yml'
+              config: 'scss/.scss-lint.yml',
+              colorizeOutput: true
           }
         },
         // SASS Compile
