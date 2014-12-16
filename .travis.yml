@@ -1,6 +1,8 @@
 language: node_js
+
 node_js:
   - "0.10"
+
 before_install: 
   - npm install -g grunt-cli
   - gem install sass
@@ -17,4 +19,5 @@ before_install:
   - php composer.phar install
   - npm install grunt-phpcs
   - ./vendor/bin/phpcs -vvv -w --config-set installed_paths "../../../coding_standards/"
+  
 install: npm install
