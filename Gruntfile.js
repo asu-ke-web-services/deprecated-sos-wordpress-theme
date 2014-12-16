@@ -72,7 +72,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'build/css/sos-wordpres-theme.css' : 'scss/sos-wordpres-theme.scss',
+                    'build/css/sos-wordpress-theme.css' : 'scss/sos-wordpress-theme.scss',
                 }
             }
         },
@@ -83,7 +83,7 @@ module.exports = function (grunt) {
                 src: [
                     'js/*.js'
                 ],
-                 dest: 'build/js/sos-wordpres-theme.js'
+                 dest: 'build/js/sos-wordpress-theme.js'
             }
         },
         // JS Uglify

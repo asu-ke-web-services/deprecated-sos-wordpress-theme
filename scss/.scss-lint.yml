@@ -109,6 +109,9 @@ linters:
   UnnecessaryMantissa:
     enabled: true
 
+  VendorPrefixes:
+    enabled: false
+
   UrlFormat:
     enabled: true
 
