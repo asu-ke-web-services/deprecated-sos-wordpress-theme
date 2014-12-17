@@ -17,3 +17,16 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+.pane-title { 
+	display: inline-block;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+  } 
+  
+.field-items p {
+	display: inline-block;
+	background-color: rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
