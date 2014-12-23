@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEA,KAAM;EACJ,OAAO,EAAE,CAAC;;;AAGZ,yBAA0B;EACxB,KAAM;IACJ,cAAc,EAAE,CAAC;IACjB,WAAW,EAAE,CAAC",
+"sources": ["../../scss/sos-wordpress-theme.scss"],
 "names": [],
 "file": "sos-wordpress-theme.css"
 }

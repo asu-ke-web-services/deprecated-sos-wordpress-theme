@@ -14,21 +14,8 @@
  GitHub Branch:    master
 */
 
-// Note: the Template section is the FOLDER name of the parent template.
+/* Note: the Template section is the FOLDER name of the parent template. */
 
 
 /* =Theme customization starts here
 ------------------------------------------------------------- */
-
-.hero {
-  padding:  0px 0 0px;
-}
-
-@media (min-width: 768px) {
-  .hero {
-     padding-top:  0px;  
-	 padding-bottom:  0px;  
-  }
-}
-
- 
