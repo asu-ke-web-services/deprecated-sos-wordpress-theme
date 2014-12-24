@@ -20,20 +20,107 @@
 /* =Theme customization starts here
 ------------------------------------------------------------- */
 
+
+/* Logo & Brand  */
+
+#asu_logo {
+	padding-top: 0x;
+ 	}
+@media (min-width: 992px) {	
+	#asu_logo {
+	padding-top: 3px ;
+	padding-bottom:5px  ;
+	}	
+}
+
+.navbar-ws .navbar-brand {
+	font-weight:bold;
+	font-size:20px;
+	line-height:normal;
+	}
+
+#site-name-desktop h1.site-title {
+	font-size:24px;
+	padding: 0px 13px 13px 0px;
+	}
+
+@media (max-width: 930px) {	
+	#asu_mobile_menu {
+	display:none;
+	}
+}
+
+
+/* Menu and ASU mobile nav gone */
+.mega-menu .dropdown-title {
+  color: #ffb310;
+  font-weight:normal;
+	}
+
+.mega-menu .dropdown-menu > .row > .column > li > a:hover {
+  color: #ffb310;
+	}
+
+.mega-menu .dropdown-menu > .row > .column > .active > a, .mega-menu .dropdown-menu > .row > .column > .active > a:hover, .mega-menu .dropdown-menu > .row > .column > .active > a:focus {
+  color: #ffb310;
+	}
+
+.navbar-ws .navbar-nav > li.current-menu-ancestor a{
+  color: #ffb310;
+	}
+
+.navbar-ws .navbar-nav > li.current-menu-ancestor a span{
+  color: #e0bb6a;
+	}
+
+ 
+ 
+ /* Hero Image Area with Home Specific */
+ 
 .hero {
   padding: 0;
-}
+	}
 
-@media (min-width: 768px) {
-  .hero {
-    padding-bottom: 0;
-    padding-top: 0;
-  }
-}
+.home .hero-bg-img p {
+	padding-top:10px;
+	font-size:36px;
+	line-height:normal;
+	}
 
+.hero-bg-img p {
+	max-width:none;
+	}	
+
+.hero-bg-img h1, .hero-bg-img h2, .hero-bg-img .h1 .h2 {
+	font-size:48px;
+	}
+
+.home .hero-bg-img h1, .home .hero-bg-img h2, .home .hero-bg-img .h1 .h2 {
+	font-size:60px;
+	}
+
+@media (max-width: 1199px) {	
+	.home .hero-bg-img p {
+ 	font-size:20px;
+ 	}
+	
+	.home .hero-bg-img h1, .home .hero-bg-img h2, .home .hero-bg-img .h1 .h2 {
+	font-size:36px;
+	}
+}	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 .margin-top-0 {
     margin-top: 0px;	
 	}
+ 
+ 
+/* Margin Scaffolding */
  
 h2,
 h3,
@@ -60,6 +147,10 @@ h6,
   margin-bottom: 10px;
   margin-top: 24px;
 }
-  
-  
-  
+
+
+
+.column-feature-height-225 img{  
+	min-height: 225px; /* example pixel height */
+	*height: 225px; /* IE hack */ 
+}
