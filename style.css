@@ -113,21 +113,28 @@
  
  
  
+/* Image to fill Colums */
  
- 
-.margin-top-0 {
-    margin-top: 0px;	
+.img-100 {
+	width: 100%;
 	}
  
+  
+ 
+
  
 /* Margin Scaffolding */
  
 h2,
+.h2 {
+  margin-bottom: 10px;
+  margin-top: 24px;
+}
+
 h3,
-.h2,
 .h3 {
   margin-bottom: 10px;
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 h4,
@@ -149,6 +156,14 @@ h6,
 }
 
 
+.margin-top-0 {
+    margin-top: 0px;	
+	}
+
+
+ul#breadcrumbs {
+	margin-bottom: 22px;
+	} 
 
 .column-feature-height-225 img{  
 	min-height: 225px; /* example pixel height */
