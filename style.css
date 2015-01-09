@@ -126,7 +126,7 @@
 /* Margin Scaffolding */
  
 h2,
-.h2, {
+.h2 {
   margin-bottom: 10px;
   margin-top: 24px;
 }
