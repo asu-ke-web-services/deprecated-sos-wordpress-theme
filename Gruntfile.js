@@ -56,7 +56,6 @@ module.exports = function (grunt) {
                 'scss/*.scss',
                 'scss/mixins/*.scss',
                 'scss/theme/*.scss'
-                // Not font_awesome
             ],
             options: {
               config: 'scss/.scss-lint.yml',
@@ -83,7 +82,7 @@ module.exports = function (grunt) {
                 src: [
                     'js/*.js'
                 ],
-                 dest: 'build/js/sos-wordpress-theme.js'
+                dest: 'build/js/sos-wordpress-theme.js'
             }
         },
         // JS Uglify
@@ -93,7 +92,7 @@ module.exports = function (grunt) {
             preserveComments: 'some'
           },
           core: {
-            src: 'build/js/sos-wordpres-theme.js',
+            src: 'build/js/sos-wordpress-theme.js',
             dest: 'build/js/sos-wordpres-theme.min.js'
           }
         },

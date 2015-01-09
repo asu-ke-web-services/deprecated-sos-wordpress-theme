@@ -1,13 +1,5 @@
 // SoS Wordpress SCSS 
 
-.hero {
-  padding: 0;
-}
-
-@media (min-width: 768px) {
-  .hero {
-    padding-bottom: 0;  
-    padding-top: 0;
-  }
-}
+@import 'variables';
+@import 'heros';
 
