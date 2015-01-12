@@ -19,22 +19,6 @@
 
 /* =Theme customization starts here
 <<<<<<< HEAD
--------------------------------------------------------------- */
-
-.pane-title { 
-	display: inline-block;
-	padding: 10px;
-  } 
-  
-.field-items p {
-	display: inline-block;
-	background-color: rgba(0,0,0,0.5);
-	padding: 10px;
-}
-
-=======
-------------------------------------------------------------- */
-
 
 /* Logo & Brand  */
 
@@ -164,4 +148,4 @@ code {
   white-space: -o-pre-wrap;
   word-wrap: break-word;
 }
->>>>>>> 8c7c4365afd852f2cb8dbab9a0ecb8dd5de2bdd7
+ 
