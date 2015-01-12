@@ -1,0 +1,34 @@
+// ==========
+// SoS Colors
+// ==========
+$sos-scarab-green:     #568e14;
+$sos-scarab-green-rgb: rgb(86, 142, 20);
+
+// ===========
+// Hero Images
+// ===========
+
+$sos-hero-ratio:       30%;
+$sos-hero-slim-height: 70px;
+$sos-hero-color:       #fff;
+
+// =======================
+// Media Query Breakpoints
+// =======================
+$screen-xs:                  480px !default;
+$screen-xs-min:              $screen-xs !default;
+$screen-phone:               $screen-xs-min !default;
+
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$screen-desktop:             $screen-md-min !default;
+
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;

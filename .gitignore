@@ -1,1 +1,7 @@
+.sass-cache/*
+node_modules/*
+.yo-rc.json
+npm-debug.log
+composer.phar
+vendor
 *~
