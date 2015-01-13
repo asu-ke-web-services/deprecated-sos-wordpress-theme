@@ -81,6 +81,7 @@ module.exports = function (grunt) {
             bootstrapAsu: {
                 src: [
                     'js/sos-wordpress-theme.js',
+                    'js/lib/*.js',
                     'js/_*.js'
                 ],
                 dest: 'build/js/sos-wordpress-theme.js'
