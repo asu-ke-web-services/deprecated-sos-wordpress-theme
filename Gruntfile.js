@@ -80,7 +80,8 @@ module.exports = function (grunt) {
         concat: {
             bootstrapAsu: {
                 src: [
-                    'js/*.js'
+                    'js/sos-wordpress-theme.js',
+                    'js/_*.js'
                 ],
                 dest: 'build/js/sos-wordpress-theme.js'
             }

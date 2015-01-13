@@ -1,14 +1,3 @@
-/*!
- * School of Sustainability
- * Copyright 2015 ASU
- */
-
-+function () {
-  'use strict';
-  'wow';
-}();
-// sos-wordpress-theme.js
-
 /* ========================================================================
  * SoS Wordpress Theme navs-click-and-hover.js v0.0.1
  * ========================================================================
