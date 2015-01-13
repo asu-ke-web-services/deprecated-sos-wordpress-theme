@@ -33,15 +33,15 @@
       padding: 0 10px 8px;
       text-shadow: rgba(0, 0, 0, .7) 1px 1px 1px;
 
-      @media(max-width: $screen-lg) {
+      @media(max-width: $screen-md-max) {
         font-size: 32px;
       }
 
-      @media(max-width: $screen-md + 100) {
+      @media(max-width: $screen-sm-max + 100) {
         font-size: 28px;
       }
 
-      @media(max-width: $screen-md) {
+      @media(max-width: $screen-sm-max) {
         font-size: 24px;
       }
     }
@@ -90,7 +90,7 @@
       padding: 10px;
       text-shadow: rgba(0, 0, 0, .7) 1px 1px 1px;
       
-      @media(max-width: $screen-lg) {
+      @media(max-width: $screen-md-max) {
         font-size: .9em;
         margin-top: -18px;
       }
@@ -100,7 +100,7 @@
       font-weight: bold;
       margin: 0 0 14px;
 
-      @media(max-width: $screen-lg) {
+      @media(max-width: $screen-md-max) {
         margin: 0 0 10px;
      }
     }
@@ -148,7 +148,7 @@ body.home {
     display: none !important;
   }
 }
-// scss-lint:enable NestingDepth
+// scss-lint:enable QualifyingElement
 
 
 // =============
@@ -164,11 +164,11 @@ body.home {
   .panel-pane {
     margin-top: 14px;
 
-    @media(max-width: $screen-md + 100) {
+    @media(max-width: $screen-sm-max + 100) {
       margin-top: 18px;
     }
 
-    @media(max-width: $screen-sm) {
+    @media(max-width: $screen-xs-max) {
       margin-top: 20px;
     }
   }

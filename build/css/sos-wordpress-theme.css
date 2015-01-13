@@ -1,3 +1,8 @@
+/*!========================================================================
+ * SoS Wordpress Theme v0.0.1
+ * ========================================================================
+ * Copyright 2014 ASU
+ * ======================================================================== */
 h2,
 .h2 {
   margin-bottom: 10px;
@@ -88,19 +93,19 @@ h6,
   padding: 0 10px 8px;
   text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .sos-hero .panel-pane .pane-title,
   .sos-hero-slim .panel-pane .pane-title {
     font-size: 32px;
   }
 }
-@media (max-width: 1092px) {
+@media (max-width: 1091px) {
   .sos-hero .panel-pane .pane-title,
   .sos-hero-slim .panel-pane .pane-title {
     font-size: 28px;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .sos-hero .panel-pane .pane-title,
   .sos-hero-slim .panel-pane .pane-title {
     font-size: 24px;
@@ -141,7 +146,7 @@ h6,
   padding: 10px;
   text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .sos-hero .panel-pane .pane-content {
     font-size: .9em;
     margin-top: -18px;
@@ -151,7 +156,7 @@ h6,
   font-weight: bold;
   margin: 0 0 14px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .sos-hero .panel-pane p {
     margin: 0 0 10px;
   }
@@ -202,12 +207,12 @@ body.home .sos-hero-mobile {
 .sos-hero-slim .panel-pane {
   margin-top: 14px;
 }
-@media (max-width: 1092px) {
+@media (max-width: 1091px) {
   .sos-hero-slim .panel-pane {
     margin-top: 18px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .sos-hero-slim .panel-pane {
     margin-top: 20px;
   }
