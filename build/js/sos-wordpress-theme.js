@@ -100,10 +100,6 @@ if (!Array.prototype.reduce) {
       var self = $( this )
       self.find( 'a' ).blur()
 
-      if ( self.find( 'a' ).attr( 'href') === '#' ) {
-        e.preventDefault()
-      }
-
       if ( self.hasClass( 'open' ) && ! self.data( 'sos-click' ) ) {
         self.removeClass( 'open' )
       } else {
