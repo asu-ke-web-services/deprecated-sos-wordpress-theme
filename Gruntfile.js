@@ -95,7 +95,7 @@ module.exports = function (grunt) {
           },
           core: {
             src: 'build/js/sos-wordpress-theme.js',
-            dest: 'build/js/sos-wordpres-theme.min.js'
+            dest: 'build/js/sos-wordpress-theme.min.js'
           }
         },
         // Watch

@@ -23,10 +23,14 @@
    */
   $( document ).ready( function () {
     $( '.navbar-ws ul.nav li.dropdown' ).click( function ( e ) {
-      e.preventDefault()
       e.stopPropagation()
+
       var self = $( this )
       self.find( 'a' ).blur()
+
+      if ( self.find( 'a' ).attr( 'href') === '#' ) {
+        e.preventDefault()
+      }
 
       if ( self.hasClass( 'open' ) && ! self.data( 'sos-click' ) ) {
         self.removeClass( 'open' )
