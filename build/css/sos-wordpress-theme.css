@@ -33,41 +33,6 @@ h6,
   margin-top: 24px;
 }
 
-.asu-breadcrumbs {
-  background-color: #f9f9f9;
-  margin-bottom: 22px;
-}
-
-h2,
-.h2 {
-  margin-bottom: 10px;
-  margin-top: 24px;
-}
-
-h3,
-.h3 {
-  margin-bottom: 10px;
-  margin-top: 24px;
-}
-
-h4,
-.h4 {
-  margin-bottom: 10px;
-  margin-top: 24px;
-}
-
-h5,
-.h5 {
-  margin-bottom: 10px;
-  margin-top: 24px;
-}
-
-h6,
-.h6 {
-  margin-bottom: 10px;
-  margin-top: 24px;
-}
-
 .sos-hero,
 .sos-hero-slim {
   background-color: #568e14;
@@ -221,6 +186,18 @@ body.home .sos-hero-mobile {
   .sos-hero-slim .panel-pane {
     margin-top: 20px;
   }
+}
+
+.asu-breadcrumbs {
+  background-color: #f9f9f9;
+}
+.asu-breadcrumbs ul {
+  margin-bottom: 24px;
+}
+
+.img-border {
+  border: solid 1px #568e14;
+  padding: 4px;
 }
 
 /*# sourceMappingURL=sos-wordpress-theme.css.map */

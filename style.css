@@ -114,12 +114,7 @@
  
 /* Image to fill Colums */
  
-.img-100 {
-	width: 100%;
-	padding: 4px;
-	border: solid 1px #67DA82;
-	}
- 
+
   
  
 
@@ -133,7 +128,9 @@
 	}
 
 
-
+.img-100 {	
+  width: 100%;
+}
 
 .column-feature-height-225 img{  
 	min-height: 225px; /* example pixel height */
