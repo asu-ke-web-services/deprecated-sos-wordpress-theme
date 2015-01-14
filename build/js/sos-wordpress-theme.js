@@ -95,8 +95,8 @@ if (!Array.prototype.reduce) {
    */
   $( document ).ready( function () {
     $( '.navbar-ws ul.nav li.dropdown' ).click( function ( e ) {
-      e.preventDefault()
       e.stopPropagation()
+
       var self = $( this )
       self.find( 'a' ).blur()
 
