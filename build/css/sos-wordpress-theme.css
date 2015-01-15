@@ -200,4 +200,11 @@ body.home .sos-hero-mobile {
   padding: 4px;
 }
 
+/* Bootstrap Styles */
+.panel-success > .panel-heading {
+  background-color: #903;
+  border-color: #903;
+  color: #fff;
+}
+
 /*# sourceMappingURL=sos-wordpress-theme.css.map */
