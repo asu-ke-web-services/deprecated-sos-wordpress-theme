@@ -146,10 +146,4 @@ code {
   word-wrap: break-word;
 }
 
-/* Bootstrap Styles */
 
-.panel-success > .panel-heading {
-background-color: #990033;
-border-color: #990033;
-color: white;
-}
