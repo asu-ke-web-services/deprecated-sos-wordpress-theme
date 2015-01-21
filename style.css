@@ -114,12 +114,7 @@
  
 /* Image to fill Colums */
  
-.img-100 {
-	width: 100%;
-	padding: 4px;
-	border: solid 1px #67DA82;
-	}
- 
+
   
  
 
@@ -133,9 +128,9 @@
 	}
 
 
-ul#breadcrumbs {
-	margin-bottom: 22px;
-	} 
+.img-100 {	
+  width: 100%;
+}
 
 .column-feature-height-225 img{  
 	min-height: 225px; /* example pixel height */
@@ -150,4 +145,5 @@ code {
   white-space: -o-pre-wrap;
   word-wrap: break-word;
 }
- 
+
+
