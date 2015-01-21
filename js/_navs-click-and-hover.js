@@ -34,17 +34,21 @@
         self.addClass( 'open' )
       }
     } ).hover( function () {
-        var self = $( this )
-        self.addClass( 'open' )
-        self.data( 'sos-click', true )
-
-        setTimeout( function () {
-          self.data( 'sos-click', false )
-        }, 5 )
-      }, function () {
-        $( this ).removeClass( 'open' )
+      // Don't worry about mobile devices
+      if ( $( window ).width() <= 974 ) {
+        return;
       }
-    )
+
+      var self = $( this )
+      self.addClass( 'open' )
+      self.data( 'sos-click', true )
+
+      setTimeout( function () {
+        self.data( 'sos-click', false )
+      }, 5 )
+    }, function () {
+      $( this ).removeClass( 'open' )
+    } )
   } )
 
   $( 'ul.dropdown-menu' ).click( function ( e ) {
