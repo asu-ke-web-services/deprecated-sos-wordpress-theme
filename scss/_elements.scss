@@ -4,6 +4,14 @@
   
   ul { 
     margin: 12px 0;
+	 
+    a {  
+      opacity: .8;
+	}
+	
+    a:hover { 
+      opacity: 1;
+  	}
   }
 }
 

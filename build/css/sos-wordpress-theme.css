@@ -195,6 +195,12 @@ body.home .sos-hero-mobile {
 .asu-breadcrumbs ul {
   margin: 12px 0;
 }
+.asu-breadcrumbs ul a {
+  opacity: .8;
+}
+.asu-breadcrumbs ul a:hover {
+  opacity: 1;
+}
 
 .img-border {
   border: solid 1px #568e14;
