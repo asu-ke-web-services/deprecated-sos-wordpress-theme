@@ -60,7 +60,7 @@ h6,
   font-size: 32px;
   font-weight: 600;
   margin: 0;
-  padding: 0 10px 8px;
+  padding: 0;
   text-shadow: rgba(0, 0, 0, 0.7) 1px 1px 1px;
 }
 @media (max-width: 1199px) {
@@ -194,6 +194,7 @@ body.home .sos-hero-mobile {
 }
 .asu-breadcrumbs ul {
   margin: 12px 0;
+  padding-left: 2px;
 }
 .asu-breadcrumbs ul a {
   opacity: .8;
