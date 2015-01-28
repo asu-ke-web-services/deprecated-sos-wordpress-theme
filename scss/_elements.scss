@@ -30,5 +30,19 @@
 }
 
 
-.news-slider-img { padding-top: 24px;
+.news-slider-img { 
+  padding-top: 24px;
+}
+
+.home {
+
+  .pager {
+    margin: 0;
+ 	
+    .next>a, 
+    .next>span {
+      float: left;
+      margin-left: 30px;
+    }
+  }
 }

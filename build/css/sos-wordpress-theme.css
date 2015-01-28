@@ -219,4 +219,13 @@ body.home .sos-hero-mobile {
   padding-top: 24px;
 }
 
+.home .pager {
+  margin: 0;
+}
+.home .pager .next > a,
+.home .pager .next > span {
+  float: left;
+  margin-left: 30px;
+}
+
 /*# sourceMappingURL=sos-wordpress-theme.css.map */
