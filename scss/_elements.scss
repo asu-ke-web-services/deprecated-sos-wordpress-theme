@@ -28,3 +28,25 @@
   border-color: #903;
   color: #fff;
 }
+
+
+.news-slider-img { 
+  padding-top: 24px;
+}
+
+.home {
+  .carousel-inner {
+    background-color: #fbfbfb;
+    border-top: 1px solid #d7d7d7;
+  }
+  
+  .pager {
+    margin: 0;
+ 	
+    .next>a, 
+    .next>span {
+      float: left;
+      margin-left: 30px;
+    }
+  }
+}

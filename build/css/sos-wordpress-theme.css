@@ -228,4 +228,21 @@ body.home .sos-hero-mobile {
   color: #fff;
 }
 
+.news-slider-img {
+  padding-top: 24px;
+}
+
+.home .carousel-inner {
+  background-color: #fbfbfb;
+  border-top: 1px solid #d7d7d7;
+}
+.home .pager {
+  margin: 0;
+}
+.home .pager .next > a,
+.home .pager .next > span {
+  float: left;
+  margin-left: 30px;
+}
+
 /*# sourceMappingURL=sos-wordpress-theme.css.map */
