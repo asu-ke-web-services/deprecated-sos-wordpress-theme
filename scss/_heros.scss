@@ -170,7 +170,24 @@ body.home {
     }
 
     @media(max-width: $screen-xs-max) {
-      margin-top: 20px;
+      display: table-cell;
+      margin-top: 0;
+      vertical-align: middle;
+    }
+  }
+
+  @media(max-width: $screen-xs-max) {
+    .panel-panel {
+      &.row-fluid {
+        display: block;
+        height: $sos-hero-slim-height;
+      }
+
+      &.span12 {
+        display: table;
+        height: 100%;
+        width: 100%;
+      }
     }
   }
 }

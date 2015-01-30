@@ -184,7 +184,20 @@ body.home .sos-hero-mobile {
 }
 @media (max-width: 767px) {
   .sos-hero-slim .panel-pane {
-    margin-top: 20px;
+    display: table-cell;
+    margin-top: 0;
+    vertical-align: middle;
+  }
+}
+@media (max-width: 767px) {
+  .sos-hero-slim .panel-panel.row-fluid {
+    display: block;
+    height: 70px;
+  }
+  .sos-hero-slim .panel-panel.span12 {
+    display: table;
+    height: 100%;
+    width: 100%;
   }
 }
 
