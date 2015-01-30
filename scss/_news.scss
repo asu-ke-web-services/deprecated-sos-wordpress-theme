@@ -1,0 +1,6 @@
+article {
+  @include boxify();
+  
+  margin: 0 0 $spacing-lg;
+  padding: $spacing-lg $spacing-sm;
+}

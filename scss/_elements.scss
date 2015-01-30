@@ -1,3 +1,5 @@
+// TODO split this up into different files
+
 .asu-breadcrumbs {
   background-color: #f5f5f5;
   border-bottom: 1px #f9f9f9 solid;
@@ -36,8 +38,7 @@
 
 .home {
   .carousel-inner {
-    background-color: #fbfbfb;
-    border-top: 1px solid #d7d7d7;
+    @include boxify();
   }
   
   .pager {

@@ -4,6 +4,14 @@
 $sos-scarab-green:     #568e14;
 $sos-scarab-green-rgb: rgb(86, 142, 20);
 
+// ====================
+// Common Padding Sizes
+// ====================
+$spacing-sm:  5px;
+$spacing-md:  10px;
+$spacing-lg:  15px;
+$spacing-xl:  20px;
+
 // ===========
 // Hero Images
 // ===========
@@ -11,6 +19,13 @@ $sos-scarab-green-rgb: rgb(86, 142, 20);
 $sos-hero-ratio:       30%;
 $sos-hero-slim-height: 70px;
 $sos-hero-color:       #fff;
+
+// ============
+// Panel Colors
+// ============
+
+$sos-panel-background-color: #fbfbfb;
+$sos-panel-border-color:     #d7d7d7;      
 
 // =======================
 // Media Query Breakpoints

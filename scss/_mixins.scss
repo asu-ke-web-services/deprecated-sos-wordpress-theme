@@ -1,0 +1,7 @@
+/**
+ * Box
+ */
+@mixin boxify () {
+  background-color: $sos-panel-background-color;
+  border-top: 1px solid $sos-panel-border-color;
+}

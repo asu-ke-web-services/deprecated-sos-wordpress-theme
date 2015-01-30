@@ -3,6 +3,9 @@
  * ========================================================================
  * Copyright 2014 ASU
  * ======================================================================== */
+/**
+ * Box
+ */
 h2,
 .h2 {
   margin-bottom: 10px;
@@ -243,6 +246,13 @@ body.home .sos-hero-mobile {
 .home .pager .next > span {
   float: left;
   margin-left: 30px;
+}
+
+article {
+  background-color: #fbfbfb;
+  border-top: 1px solid #d7d7d7;
+  margin: 0 0 15px;
+  padding: 15px 5px;
 }
 
 /*# sourceMappingURL=sos-wordpress-theme.css.map */
