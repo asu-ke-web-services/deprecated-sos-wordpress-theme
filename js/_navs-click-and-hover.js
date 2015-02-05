@@ -1,11 +1,14 @@
 /* ========================================================================
- * SoS Wordpress Theme navs-click-and-hover.js v0.0.1
+ * SoS Wordpress Theme navs-click-and-hover.js v0.0.2
  * ========================================================================
  * Copyright 2014 ASU
  * ======================================================================== */
 
 +function ( $ ) {
   'use strict';
+
+  // TODO refactor this constant
+  var mobileWidth = 975
 
   /*
    * The hover functions will trigger even on mobile devices. When
@@ -35,8 +38,8 @@
       }
     } ).hover( function () {
       // Don't worry about mobile devices
-      if ( $( window ).width() <= 974 ) {
-        return;
+      if ( $( window ).width() < mobileWidth ) {
+        return
       }
 
       var self = $( this )
@@ -46,7 +49,14 @@
       setTimeout( function () {
         self.data( 'sos-click', false )
       }, 5 )
-    }, function () {
+    }, function ( e ) {
+      // Don't worry about mobile devices
+      if ( $( window ).width() < mobileWidth ) {
+        e.preventDefault()
+        e.stopPropagation()
+        return
+      }
+
       $( this ).removeClass( 'open' )
     } )
   } )

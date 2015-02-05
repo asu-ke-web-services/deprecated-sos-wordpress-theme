@@ -64,11 +64,11 @@
   color: #ffb310;
 	}
 
-.navbar-ws .navbar-nav > li.current-menu-ancestor a{
+.navbar-ws .navbar-nav > li.current-menu-ancestor > a{
   color: #ffb310;
 	}
 
-.navbar-ws .navbar-nav > li.current-menu-ancestor a span{
+.navbar-ws .navbar-nav > li.current-menu-ancestor > a span{
   color: #e0bb6a;
 	}
 
