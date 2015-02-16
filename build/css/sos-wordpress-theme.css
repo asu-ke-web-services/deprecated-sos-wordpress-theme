@@ -154,10 +154,10 @@ figure p {
   font-size: 68.5%;
   letter-spacing: 1px;
 }
-figure .effect-goliath {
+figure.effect-goliath {
   background: #568e14;
 }
-figure .effect-goliath p {
+figure.effect-goliath p {
   font-size: 90%;
   opacity: 0;
   text-transform: none;
@@ -166,17 +166,17 @@ figure .effect-goliath p {
   -webkit-transition: opacity 0.35, -webkit-transform 0.35;
   transition: opacity 0.35, transform 0.35;
 }
-figure .effect-goliath img,
-figure .effect-goliath h2 {
+figure.effect-goliath img,
+figure.effect-goliath h2 {
   -webkit-transition: -webkit-transform 0.35;
   transition: transform 0.35;
 }
-figure .effect-goliath img {
+figure.effect-goliath img {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-figure .effect-goliath h2,
-figure .effect-goliath p {
+figure.effect-goliath h2,
+figure.effect-goliath p {
   bottom: 0;
   left: 0;
   padding: 30px;
