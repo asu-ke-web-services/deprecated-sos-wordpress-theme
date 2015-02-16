@@ -35,15 +35,15 @@ figure {
     &::after {
       pointer-events: none;
     }
-  }
 
-  &,
-  > a {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+    &,
+    > a {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
   }
 
   /* Anchor will cover the whole item by default */

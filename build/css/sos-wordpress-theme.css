@@ -124,8 +124,8 @@ figure figcaption {
 figure figcaption::before, figure figcaption::after {
   pointer-events: none;
 }
-figure,
-figure > a {
+figure figcaption,
+figure figcaption > a {
   height: 100%;
   left: 0;
   position: absolute;
