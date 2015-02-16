@@ -92,9 +92,6 @@ article.news {
  * ========================================================================
  * Copyright 2014 ASU
  * ======================================================================== */
-/*-----------------*/
-/***** Goliath *****/
-/*-----------------*/
 figure {
   background: #568e14;
   cursor: pointer;
@@ -103,6 +100,59 @@ figure {
   overflow: hidden;
   position: relative;
   text-align: center;
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+  /*-----------------*/
+  /***** Goliath *****/
+  /*-----------------*/
+}
+figure img {
+  display: block;
+  max-width: 100%;
+  min-height: 100%;
+  opacity: .8;
+  position: relative;
+}
+figure figcaption {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  color: #fff;
+  font-size: 1.25em;
+  padding: 2em;
+  text-transform: uppercase;
+}
+figure figcaption::before, figure figcaption::after {
+  pointer-events: none;
+}
+figure,
+figure > a {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+figure > a {
+  font-size: 0;
+  opacity: 0;
+  text-indent: 200%;
+  white-space: nowrap;
+  z-index: 1000;
+}
+figure h2 {
+  font-weight: 300;
+  word-spacing: -.15em;
+}
+figure h2 span {
+  font-weight: 800;
+}
+figure h2,
+figure p {
+  margin: 0;
+}
+figure p {
+  font-size: 68.5%;
+  letter-spacing: 1px;
 }
 figure .effect-goliath {
   background: #568e14;

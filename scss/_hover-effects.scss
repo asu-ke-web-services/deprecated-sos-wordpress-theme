@@ -4,10 +4,6 @@
  * Copyright 2014 ASU
  * ======================================================================== */
 
-
-/*-----------------*/
-/***** Goliath *****/
-/*-----------------*/
 $goliath-speed:  .35;
 
 figure {
@@ -18,6 +14,71 @@ figure {
   overflow: hidden;
   position: relative;
   text-align: center;
+
+  img {
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
+    opacity: .8;
+    position: relative;
+  }
+
+  figcaption {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: #fff;
+    font-size: 1.25em;
+    padding: 2em;
+    text-transform: uppercase;
+
+    &::before,
+    &::after {
+      pointer-events: none;
+    }
+  }
+
+  &,
+  > a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+  > a {
+    font-size: 0;
+    opacity: 0;
+    text-indent: 200%;
+    white-space: nowrap;
+    z-index: 1000;
+  }
+
+  h2 {
+    font-weight: 300;
+    word-spacing: -.15em;
+
+    span {
+      font-weight: 800;
+    }
+  }
+
+  h2,
+  p {
+    margin: 0;
+  }
+
+  p {
+    font-size: 68.5%;
+    letter-spacing: 1px;
+  }
+
+  /*-----------------*/
+  /***** Goliath *****/
+  /*-----------------*/
+
 
   .effect-goliath {
     background: $sos-scarab-green;
