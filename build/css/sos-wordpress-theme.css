@@ -87,4 +87,54 @@ article.news {
   padding: 15px 5px;
 }
 
+/*========================================================================
+ * Hover Effect 0.0.1
+ * ========================================================================
+ * Copyright 2014 ASU
+ * ======================================================================== */
+/*-----------------*/
+/***** Goliath *****/
+/*-----------------*/
+figure .effect-goliath {
+  background: #568e14;
+}
+figure .effect-goliath p {
+  font-size: 90%;
+  opacity: 0;
+  text-transform: none;
+  -webkit-transform: translate3d(0, 50px, 0);
+  transform: translate3d(0, 50px, 0);
+  -webkit-transition: opacity 0.35, -webkit-transform 0.35;
+  transition: opacity 0.35, transform 0.35;
+}
+figure .effect-goliath img,
+figure .effect-goliath h2 {
+  -webkit-transition: -webkit-transform 0.35;
+  transition: transform 0.35;
+}
+figure .effect-goliath img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+figure .effect-goliath h2,
+figure .effect-goliath p {
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  position: absolute;
+}
+figure:hover img {
+  -webkit-transform: translate3d(0, -80px, 0);
+  transform: translate3d(0, -80px, 0);
+}
+figure:hover h2 {
+  -webkit-transform: translate3d(0, -100px, 0);
+  transform: translate3d(0, -100px, 0);
+}
+figure:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
 /*# sourceMappingURL=sos-wordpress-theme.css.map */

@@ -32,6 +32,7 @@ get_header(); ?>
   text-align: center;
   width: 50%;
 }
+
 </style>
 
 <div id="main-wrapper" class="clearfix">

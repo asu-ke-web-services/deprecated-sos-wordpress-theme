@@ -1,0 +1,64 @@
+/*========================================================================
+ * Hover Effect 0.0.1
+ * ========================================================================
+ * Copyright 2014 ASU
+ * ======================================================================== */
+
+
+/*-----------------*/
+/***** Goliath *****/
+/*-----------------*/
+$goliath-speed:  .35;
+
+figure {
+  .effect-goliath {
+    background: $sos-scarab-green;
+
+    p {
+      font-size: 90%;
+      opacity: 0;
+      text-transform: none;
+      -webkit-transform: translate3d(0, 50px, 0);
+      transform: translate3d(0, 50px, 0);
+      -webkit-transition: opacity $goliath-speed, -webkit-transform $goliath-speed;
+      transition: opacity $goliath-speed, transform $goliath-speed;
+    }
+
+    img,
+    h2 {
+      -webkit-transition: -webkit-transform $goliath-speed;
+      transition: transform $goliath-speed;
+    }
+
+    img {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+
+    h2,
+    p {
+      bottom: 0;
+      left: 0;
+      padding: 30px;
+      position: absolute;
+    }
+  }
+
+  &:hover {
+    img {
+      -webkit-transform: translate3d(0, -80px, 0);
+      transform: translate3d(0, -80px, 0);
+    }
+
+    h2 {
+      -webkit-transform: translate3d(0, -100px, 0);
+      transform: translate3d(0, -100px, 0);
+    }
+
+    p {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
