@@ -100,8 +100,6 @@ figure {
   overflow: hidden;
   position: relative;
   text-align: center;
-  /* Anchor will cover the whole item by default */
-  /* For some effects it will show as a button */
   /*-----------------*/
   /***** Goliath *****/
   /*-----------------*/
@@ -120,6 +118,8 @@ figure figcaption {
   font-size: 1.25em;
   padding: 2em;
   text-transform: uppercase;
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
 }
 figure figcaption::before, figure figcaption::after {
   pointer-events: none;
@@ -132,7 +132,7 @@ figure figcaption > a {
   top: 0;
   width: 100%;
 }
-figure > a {
+figure figcaption > a {
   font-size: 0;
   opacity: 0;
   text-indent: 200%;
@@ -163,13 +163,13 @@ figure.effect-goliath p {
   text-transform: none;
   -webkit-transform: translate3d(0, 50px, 0);
   transform: translate3d(0, 50px, 0);
-  -webkit-transition: opacity 0.35, -webkit-transform 0.35;
-  transition: opacity 0.35, transform 0.35;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
 }
 figure.effect-goliath img,
 figure.effect-goliath h2 {
-  -webkit-transition: -webkit-transform 0.35;
-  transition: transform 0.35;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
 }
 figure.effect-goliath img {
   -webkit-backface-visibility: hidden;

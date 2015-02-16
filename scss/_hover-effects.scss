@@ -4,7 +4,7 @@
  * Copyright 2014 ASU
  * ======================================================================== */
 
-$goliath-speed:  .35;
+$goliath-speed:  .35s;
 
 figure {
   background: $sos-scarab-green;
@@ -44,16 +44,16 @@ figure {
       top: 0;
       width: 100%;
     }
-  }
 
-  /* Anchor will cover the whole item by default */
-  /* For some effects it will show as a button */
-  > a {
-    font-size: 0;
-    opacity: 0;
-    text-indent: 200%;
-    white-space: nowrap;
-    z-index: 1000;
+    /* Anchor will cover the whole item by default */
+    /* For some effects it will show as a button */
+    > a {
+      font-size: 0;
+      opacity: 0;
+      text-indent: 200%;
+      white-space: nowrap;
+      z-index: 1000;
+    }
   }
 
   h2 {
