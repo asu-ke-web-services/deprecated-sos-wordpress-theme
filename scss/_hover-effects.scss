@@ -11,6 +11,14 @@
 $goliath-speed:  .35;
 
 figure {
+  background: $sos-scarab-green;
+  cursor: pointer;
+  height: auto;
+  margin: 10px 1%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+
   .effect-goliath {
     background: $sos-scarab-green;
 

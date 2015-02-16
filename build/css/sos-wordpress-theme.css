@@ -95,6 +95,15 @@ article.news {
 /*-----------------*/
 /***** Goliath *****/
 /*-----------------*/
+figure {
+  background: #568e14;
+  cursor: pointer;
+  height: auto;
+  margin: 10px 1%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
 figure .effect-goliath {
   background: #568e14;
 }
