@@ -150,9 +150,20 @@ figure h2,
 figure p {
   margin: 0;
 }
+@media (max-width: 991px) {
+  figure h2,
+  figure p {
+    font-size: 20px;
+  }
+}
 figure p {
   font-size: 68.5%;
   letter-spacing: 1px;
+}
+@media (max-width: 991px) {
+  figure p {
+    font-size: 50%;
+  }
 }
 figure.effect-goliath {
   background: #568e14;
