@@ -175,11 +175,15 @@ figure.effect-goliath img {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+figure.effect-goliath h2 {
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+}
 figure.effect-goliath h2,
 figure.effect-goliath p {
   bottom: 0;
   left: 0;
-  padding: 30px;
+  padding: 18px;
   position: absolute;
 }
 figure:hover img {

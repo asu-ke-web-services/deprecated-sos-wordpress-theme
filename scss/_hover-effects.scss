@@ -104,11 +104,17 @@ figure {
       backface-visibility: hidden;
     }
 
+    h2 {
+      color: #fff;
+      text-shadow: 0 0 15px #000;
+    }
+
     h2,
     p {
       bottom: 0;
       left: 0;
-      padding: 30px;
+      // TODO this is to help the text be centered, lets just use a display:table;
+      padding: 18px;
       position: absolute;
     }
   }
