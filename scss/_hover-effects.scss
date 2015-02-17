@@ -83,6 +83,11 @@ figure {
   &.effect-goliath {
     background: $sos-scarab-green;
 
+    &.text-top h2 {
+      bottom: auto !important;
+      top: 0 !important;
+    }
+
     p {
       font-size: 90%;
       opacity: 0;
@@ -106,7 +111,7 @@ figure {
 
     h2 {
       color: #fff;
-      text-shadow: 0 0 15px #000;
+      text-shadow: 0 0 5px #010, -1px -1px 2px #010, 1px 1px 2px #010;
     }
 
     h2,
