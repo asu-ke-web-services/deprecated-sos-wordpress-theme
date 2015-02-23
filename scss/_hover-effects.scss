@@ -4,10 +4,11 @@
  * Copyright 2014 ASU
  * ======================================================================== */
 
-// scss-lint:disable ColorVariable
+// scss-lint:disable ColorVariable, SelectorDepth, NestingDepth
 // TODO: extract color variables
 
 $goliath-speed:  .35s;
+$sarah-speed:    .35s;
 
 figure {
   background: $sos-scarab-green;
@@ -151,6 +152,77 @@ figure {
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);
+    }
+  }
+
+  /*---------------*/
+  /***** Sarah *****/
+  /*---------------*/
+  &.effect-sarah {
+    background: $sos-scarab-green;
+
+    img {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      max-width: none;
+      -webkit-transform: translate3d(-10px, 0, 0);
+      transform: translate3d(-10px, 0, 0);
+      -webkit-transition: opacity $sarah-speed, -webkit-transform $sarah-speed;
+      transition: opacity $sarah-speed, transform $sarah-speed;
+      width: -webkit-calc(100% + 20px);
+      width: calc(100% + 20px);
+    }
+
+    &:hover {
+      img {
+        opacity: .4;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+
+      h2::after {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+
+      p {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    figcaption {
+      text-align: left;
+    }
+
+    h2 {
+      overflow: hidden;
+      padding: .5em 0;
+      position: relative;
+
+      &::after {
+        background: #fff;
+        bottom: 0;
+        content: '';
+        height: 3px;
+        left: 0;
+        position: absolute;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        -webkit-transition: -webkit-transform $sarah-speed;
+        transition: transform $sarah-speed;
+        width: 100%;
+      }
+    }
+
+    p {
+      opacity: 0;
+      padding: 1em 0;
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      -webkit-transition: opacity $sarah-speed, -webkit-transform $sarah-speed;
+      transition: opacity $sarah-speed, transform $sarah-speed;  
     }
   }
 }

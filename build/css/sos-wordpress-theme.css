@@ -36,6 +36,32 @@ h6,
   margin-top: 24px;
 }
 
+.navbar-ws .navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+.column-feature-height-225 img {
+  min-height: 225px;
+}
+
+code {
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 .asu-breadcrumbs {
   background-color: #f5f5f5;
   border-bottom: 1px #f9f9f9 solid;
@@ -76,6 +102,25 @@ h6,
   margin-left: 30px;
 }
 
+/* Menu and ASU mobile nav gone */
+.mega-menu .dropdown-title {
+  color: #ffb310;
+  font-weight: normal;
+}
+.mega-menu .dropdown-menu > .row > .column > li > a:hover {
+  color: #ffb310;
+}
+.mega-menu .dropdown-menu > .row > .column > .active > a, .mega-menu .dropdown-menu > .row > .column > .active > a:hover, .mega-menu .dropdown-menu > .row > .column > .active > a:focus {
+  color: #ffb310;
+}
+
+.navbar-ws .navbar-nav > .current-menu-ancestor > a {
+  color: #ffb310;
+}
+.navbar-ws .navbar-nav > .current-menu-ancestor > a span {
+  color: #e0bb6a;
+}
+
 article.news {
   background-color: #fbfbfb;
   border-top: 1px solid #d7d7d7;
@@ -99,6 +144,9 @@ figure {
   /*-----------------*/
   /***** Goliath *****/
   /*-----------------*/
+  /*---------------*/
+  /***** Sarah *****/
+  /*---------------*/
 }
 figure img {
   display: block;
@@ -208,6 +256,88 @@ figure:hover p {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+figure.effect-sarah {
+  background: #568e14;
+}
+figure.effect-sarah img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  max-width: none;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  width: -webkit-calc(100% + 20px);
+  width: calc(100% + 20px);
+}
+figure.effect-sarah:hover img {
+  opacity: .4;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+figure.effect-sarah:hover h2::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+figure.effect-sarah:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+figure.effect-sarah figcaption {
+  text-align: left;
+}
+figure.effect-sarah h2 {
+  overflow: hidden;
+  padding: .5em 0;
+  position: relative;
+}
+figure.effect-sarah h2::after {
+  background: #fff;
+  bottom: 0;
+  content: '';
+  height: 3px;
+  left: 0;
+  position: absolute;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  width: 100%;
+}
+figure.effect-sarah p {
+  opacity: 0;
+  padding: 1em 0;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+#asu_logo {
+  padding-top: 0px;
+}
+@media (min-width: 992px) {
+  #asu_logo {
+    padding-top: 3px;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 930px) {
+  #asu_mobile_menu {
+    display: none;
+  }
+}
+#site-name-desktop h1.site-title {
+  font-size: 24px;
+  padding: 0 13px 13px 0;
+}
+
+.column-feature-height-225 img {
+  *height: 225px;
+  /* IE hack */
 }
 
 /*# sourceMappingURL=sos-wordpress-theme.css.map */
