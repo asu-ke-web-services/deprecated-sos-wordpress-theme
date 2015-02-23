@@ -1,8 +1,8 @@
 // TODO split this up into different files
 
 .asu-breadcrumbs {
-  background-color: #f5f5f5;
-  border-bottom: 1px #f9f9f9 solid;
+  background-color: $breadcrumb-background-color;
+  border-bottom: 1px $breadcrumb-border-color solid;
   
   .breadcrumb { 
     margin: 12px 0;
@@ -26,9 +26,9 @@
 /* Bootstrap Styles */
 
 .panel-success > .panel-heading {
-  background-color: #903;
-  border-color: #903;
-  color: #fff;
+  background-color: $panel-success-background-color;
+  border-color: $panel-success-border-color;
+  color: $panel-success-font-color;
 }
 
 
@@ -38,16 +38,19 @@
 
 .home {
   .carousel-inner {
-    @include boxify();
+    // @include boxify();
   }
   
   .pager {
     margin: 0;
- 	
+ 	  
+    // scss-lint:disable SelectorDepth
     .next>a, 
     .next>span {
       float: left;
       margin-left: 30px;
     }
+
+    // scss-lint:enable SelectorDepth
   }
 }

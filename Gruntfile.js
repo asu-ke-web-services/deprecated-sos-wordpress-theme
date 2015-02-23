@@ -58,6 +58,7 @@ module.exports = function (grunt) {
                 'scss/theme/*.scss'
             ],
             options: {
+              bundleExec: true,
               config: 'scss/.scss-lint.yml',
               colorizeOutput: true
           }
