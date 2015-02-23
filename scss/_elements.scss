@@ -26,9 +26,9 @@
 /* Bootstrap Styles */
 
 .panel-success > .panel-heading {
-  background-color: #903;
-  border-color: #903;
-  color: #fff;
+  background-color: $panel-success-background-color;
+  border-color: $panel-success-border-color;
+  color: $panel-success-font-color;
 }
 
 

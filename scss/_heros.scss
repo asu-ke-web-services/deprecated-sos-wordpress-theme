@@ -8,7 +8,7 @@
 // TODO Move these styles to ASU-Web-Standards-Bootstrap once approved by The Hub.
 .sos-hero,
 .sos-hero-slim {
-  background-color: #d5d5d5;
+  background-color: $sos-hero-slim-background-color;
   position: relative;
   width: 100%;
 
@@ -142,7 +142,7 @@
   }
 }
 
-// scss-lint:disable QualifyingElement
+// scss-lint:disable QualifyingElement, ImportantRule
 // Hide on home!
 body.home {
   .sos-hero-mobile {
@@ -150,7 +150,7 @@ body.home {
   }
 }
 
-// scss-lint:enable QualifyingElement
+// scss-lint:enable QualifyingElement, ImportantRule
 
 
 // =============

@@ -4,6 +4,9 @@
  * Copyright 2014 ASU
  * ======================================================================== */
 
+// scss-lint:disable ColorVariable
+// TODO: extract color variables
+
 $goliath-speed:  .35s;
 
 figure {
@@ -87,14 +90,16 @@ figure {
   /***** Goliath *****/
   /*-----------------*/
 
-
   &.effect-goliath {
     background: $sos-scarab-green;
 
+    // scss-lint:disable ImportantRule
     &.text-top h2 {
       bottom: auto !important;
       top: 0 !important;
     }
+
+    // scss-lint:enable ImportantRule
 
     p {
       font-size: 90%;
@@ -150,3 +155,7 @@ figure {
     }
   }
 }
+// scss-lint:enable ColorVariable
+
+
+
