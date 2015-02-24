@@ -30,27 +30,3 @@
   border-color: $panel-success-border-color;
   color: $panel-success-font-color;
 }
-
-
-.news-slider-img { 
-  padding-top: 24px;
-}
-
-.home {
-  .carousel-inner {
-    // @include boxify();
-  }
-  
-  .pager {
-    margin: 0;
- 	  
-    // scss-lint:disable SelectorDepth
-    .next>a, 
-    .next>span {
-      float: left;
-      margin-left: 30px;
-    }
-
-    // scss-lint:enable SelectorDepth
-  }
-}
