@@ -60,7 +60,10 @@ module.exports = function (grunt) {
             options: {
               bundleExec: true,
               config: 'scss/.scss-lint.yml',
-              colorizeOutput: true
+              colorizeOutput: true,
+              exclude : [
+                    'scss/_shame.scss'
+                ]
           }
         },
         // SASS Compile
@@ -74,6 +77,19 @@ module.exports = function (grunt) {
                 files: {
                     'build/css/sos-wordpress-theme.css' : 'scss/sos-wordpress-theme.scss',
                 }
+            }
+        },
+        // CSS Minify
+        // ==========
+        cssmin: {
+            target: {
+                files: [{
+                    expand: true,
+                    cwd: 'build/css',
+                    src: ['*.css', '!*.min.css'],
+                    dest: 'build/css',
+                    ext: '.min.css'
+                }]
             }
         },
         // JS Compile
@@ -116,6 +132,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-scss-lint');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-phpcs');
@@ -129,6 +146,7 @@ module.exports = function (grunt) {
         'sass',
         'concat',
         'uglify',
+        'cssmin',
         'phpcs']);
 };
 

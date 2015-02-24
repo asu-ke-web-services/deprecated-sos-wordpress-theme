@@ -1,0 +1,31 @@
+// ====================
+// Shameful CSS
+// 
+// Hide your shame here
+// ====================
+
+//== Logo & Brand 
+#asu_logo {
+  padding-top: 0px;
+
+  @media (min-width: $screen-md-min) { 
+    padding-top: 3px;
+    padding-bottom: 5px;
+  } 
+}
+
+
+@media (max-width: 930px) { 
+  #asu_mobile_menu {
+    display: none;
+  }
+}
+
+#site-name-desktop h1.site-title {
+  font-size: 24px;
+  padding: 0 13px 13px 0;
+}
+
+.column-feature-height-225 img {  
+  *height: 225px; /* IE hack */ 
+}

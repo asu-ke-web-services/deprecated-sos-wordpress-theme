@@ -3,10 +3,6 @@
  * Copyright 2015 ASU
  */
 
-+function () {
-  'use strict';
-  'wow';
-}();
 // sos-wordpress-theme.js
 
 // Production steps of ECMA-262, Edition 5, 15.4.4.21

@@ -6,3 +6,26 @@ article {
     padding: $spacing-lg $spacing-sm;
   }
 }
+
+.news-slider-img { 
+  padding-top: 24px;
+}
+
+.home {
+  .carousel-inner {
+    // @include boxify();
+  }
+  
+  .pager {
+    margin: 0;
+    
+    // scss-lint:disable SelectorDepth
+    .next > a, 
+    .next > span {
+      float: left;
+      margin-left: 30px;
+    }
+
+    // scss-lint:enable SelectorDepth
+  }
+}
