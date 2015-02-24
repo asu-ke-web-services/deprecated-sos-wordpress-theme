@@ -11,21 +11,19 @@ article {
   padding-top: 24px;
 }
 
-.home {
-  .carousel-inner {
-    // @include boxify();
-  }
+.pager {
+  margin: 0;
   
-  .pager {
-    margin: 0;
-    
-    // scss-lint:disable SelectorDepth
-    .next > a, 
-    .next > span {
-      float: left;
-      margin-left: 30px;
-    }
+  .next > a, 
+  .next > span {
+    float: left;
+    margin-left: 30px;
+  }
 
-    // scss-lint:enable SelectorDepth
+  .all-news > a, 
+  .all-news > span {
+    background-color: $news-secondary-button-background-color;
+    float: right;
   }
 }
+
