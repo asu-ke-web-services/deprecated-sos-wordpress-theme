@@ -33,6 +33,11 @@ get_header(); ?>
   width: 50%;
 }
 
+.hero p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 </style>
 
 <div id="main-wrapper" class="clearfix">
