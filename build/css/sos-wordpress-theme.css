@@ -317,6 +317,11 @@ figure.effect-sarah p {
   transition: opacity 0.35s, transform 0.35s;
 }
 
+a.list-group-item:focus, a.list-group-item:hover {
+  color: #330011;
+  font-weight: normal;
+}
+
 #asu_logo {
   padding-top: 0px;
 }

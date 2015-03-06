@@ -1,0 +1,12 @@
+// ===========
+// List Groups
+// ===========
+a {
+  &.list-group-item {
+    &:focus,
+    &:hover {
+      color: darken($asu-maroon, 20%);
+      font-weight: normal;
+    }
+  }
+}
