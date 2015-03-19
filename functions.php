@@ -6,7 +6,7 @@ function sos_wordpress_theme_scripts() {
   wp_enqueue_style( 'sos-wordpress-theme' );
   
   # TODO once we have some custom javascript, change this to the .min
-  wp_register_script( 'sos-wordpress-theme', get_stylesheet_directory_uri().'/build/js/sos-wordpress-theme.min.js', array(), '0.0.2', 'all' );
+  wp_register_script( 'sos-wordpress-theme', get_stylesheet_directory_uri().'/build/js/sos-wordpress-theme.min.js', array(), '0.0.3', 'all' );
   wp_enqueue_script( 'sos-wordpress-theme' );
 }
 
