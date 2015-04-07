@@ -2,7 +2,7 @@
 
 
 function sos_wordpress_theme_scripts() {
-  wp_register_style( 'sos-wordpress-theme', get_stylesheet_directory_uri().'/build/css/sos-wordpress-theme.min.css', array(), '0.0.1', 'all' );
+  wp_register_style( 'sos-wordpress-theme', get_stylesheet_directory_uri().'/build/css/sos-wordpress-theme.min.css', array(), '0.0.2', 'all' );
   wp_enqueue_style( 'sos-wordpress-theme' );
   
   # TODO once we have some custom javascript, change this to the .min
