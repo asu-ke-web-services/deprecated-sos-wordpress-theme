@@ -4,11 +4,11 @@
  * Copyright 2014 ASU
  * ======================================================================== */
 
-// scss-lint:disable ColorVariable, SelectorDepth, NestingDepth
-// TODO: extract color variables
-
-$goliath-speed:  .35s;
-$sarah-speed:    .35s;
+// scss-lint:disable SelectorDepth, NestingDepth
+$goliath-speed:       .35s;
+$sarah-speed:         .35s;
+$figure-color:        #fff;
+$figure-shadow-color: #010;
 
 figure {
   background: $sos-scarab-green;
@@ -28,7 +28,7 @@ figure {
   figcaption {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    color: #fff;
+    color: $figure-color;
     font-size: 1.25em;
     padding: 2em;
     text-transform: uppercase;
@@ -122,8 +122,8 @@ figure {
     }
 
     h2 {
-      color: #fff;
-      text-shadow: 0 0 5px #010, -1px -1px 2px #010, 1px 1px 2px #010;
+      color: $figure-color;
+      text-shadow: 0 0 5px $figure-shadow-color, -1px -1px 2px $figure-shadow-color, 1px 1px 2px $figure-shadow-color;
     }
 
     h2,
@@ -201,7 +201,7 @@ figure {
       position: relative;
 
       &::after {
-        background: #fff;
+        background: $figure-color;
         bottom: 0;
         content: '';
         height: 3px;

@@ -29,7 +29,13 @@ $spacing-xl:  20px;
 // ============
 
 $sos-panel-background-color: #fbfbfb;
-$sos-panel-border-color:     #d7d7d7;      
+$sos-panel-border-color:     #d7d7d7;
+
+// ==========
+// Nav Colors
+// ==========      
+$nav-color:         #ffb310;
+$nav-current-color: #e0bb6a;
 
 // =======================
 // Media Query Breakpoints
@@ -42,3 +48,4 @@ $screen-lg-min: 1200px !default;
 $screen-xs-max: ($screen-sm-min - 1) !default;
 $screen-sm-max: ($screen-md-min - 1) !default;
 $screen-md-max: ($screen-lg-min - 1) !default;
+
