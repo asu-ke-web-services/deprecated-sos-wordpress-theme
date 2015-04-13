@@ -32,5 +32,9 @@
     color: $nav-current-color;
   }
 }
+
+.navbar-ws .navbar-nav > li > a {
+  padding: 20px 17px;
+}
 // scss-lint:enable SelectorDepth, NestingDepth, QualifyingElement
 

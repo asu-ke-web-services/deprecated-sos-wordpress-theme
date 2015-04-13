@@ -108,6 +108,10 @@ code {
   color: #e0bb6a;
 }
 
+.navbar-ws .navbar-nav > li > a {
+  padding: 20px 17px;
+}
+
 article.news {
   margin: 0 0 15px;
   padding: 15px 5px;
