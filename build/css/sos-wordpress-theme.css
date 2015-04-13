@@ -1,5 +1,5 @@
 /*!========================================================================
- * SoS Wordpress Theme v0.0.4
+ * SoS Wordpress Theme v0.0.5
  * ========================================================================
  * Copyright 2014 ASU
  * ======================================================================== */
@@ -110,6 +110,12 @@ code {
 
 .navbar-ws .navbar-nav > li > a {
   padding: 20px 17px;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .navbar-ws .navbar-nav > li > a {
+    font-size: .9em;
+    padding: 20px 13px;
+  }
 }
 
 article.news {
